@@ -6,17 +6,6 @@ const isApp = !!getClientConfig()?.isApp;
 
 const cn = {
   WIP: "该功能仍在开发中……",
-  Error: {
-    Unauthorized: isApp
-      ? `
-       \\
-       \\  `
-      : `
-       \ 
-       \ 
-       \ 
-       `,
-  },
   Auth: {
     Return: "返回",
     Title: "需要密码",
