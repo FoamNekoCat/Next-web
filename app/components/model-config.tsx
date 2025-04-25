@@ -97,7 +97,7 @@ export function ModelConfigList(props: {
           aria-label={Locale.Settings.MaxTokens.Title}
           type="number"
           min={1024}
-          max={512000}
+          max={1024000}
           value={props.modelConfig.max_tokens}
           onChange={(e) =>
             props.updateConfig(
@@ -200,7 +200,7 @@ export function ModelConfigList(props: {
           title={props.modelConfig.historyMessageCount.toString()}
           value={props.modelConfig.historyMessageCount}
           min="0"
-          max="64"
+          max="128"
           step="1"
           onChange={(e) =>
             props.updateConfig(
@@ -218,7 +218,7 @@ export function ModelConfigList(props: {
           aria-label={Locale.Settings.CompressThreshold.Title}
           type="number"
           min={500}
-          max={4000}
+          max={128000}
           value={props.modelConfig.compressMessageLengthThreshold}
           onChange={(e) =>
             props.updateConfig(
