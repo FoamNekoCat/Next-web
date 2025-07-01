@@ -534,6 +534,17 @@ const cn = {
           SubTitle: "样例：",
         },
       },
+      AI302: {
+        ApiKey: {
+          Title: "Rozhraní klíč",
+          SubTitle: "Použijte vlastní 302.AI API Key",
+          Placeholder: "302.AI API Key",
+        },
+        Endpoint: {
+          Title: "Adresa rozhraní",
+          SubTitle: "Příklad:",
+        },
+      },
       CustomModel: {
         Title: "自定义模型名",
         SubTitle: "增加自定义模型可选项，使用英文逗号隔开",
